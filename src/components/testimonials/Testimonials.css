@@ -1,0 +1,37 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.t-title {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.testimonials {
+    width: 100%;
+    background-color: #9D84B7;
+    border-radius: 30px;
+    padding: 15px 0px;
+}
+
+.t-name {
+    font-size: 2rem;
+    text-align: center;
+    margin: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+.t-description {
+    margin: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}

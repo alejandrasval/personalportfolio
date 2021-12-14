@@ -1,0 +1,44 @@
+.projectList {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #D5D5D5;
+}
+
+.projectList-text {
+    width: 100%;
+}
+
+.projectList-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.projectList-description {
+    margin: 20px 0px;
+    font-size: 1.5rem;
+}
+
+.projectList-catalogue {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .projectList {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    .projectList-text {
+        width: 100%;
+    }
+    
+    .projectList-description {
+        display: none;
+    }
+}

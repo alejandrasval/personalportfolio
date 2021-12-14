@@ -1,0 +1,74 @@
+.contact {
+    display: flex;
+    position: relative;
+}
+
+.c-bg {
+    width: 40px;
+    height: 100%;
+    background-color: #9D84B7;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+}
+
+.c-center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title {
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+}
+
+form {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    border: 1px solid lightgray;
+}
+
+button {
+    justify-content: center;
+    border: none;
+    padding: 15px;
+    background-color: #9D84B7;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    .c-title {
+        font-size: 32px;
+    }
+
+    .c-center {
+        flex-direction: column;
+    }
+}
