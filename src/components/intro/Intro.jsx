@@ -1,5 +1,5 @@
 import "./Intro.css";
-import avatar from "../../assets/avatar.png"
+import avatar from "../../assets/avatar.png";
 
 const Intro = () => {
   return (
@@ -16,13 +16,14 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-description">
-              I'm a front-end developer based in Medellín, Colombia. I have experience with HTML5, CSS3, JS and React.js. I'm currently learning about UI/UX design. I design modern and incredible websites. 
+            I'm a front-end developer based in Medellín, Colombia. I have
+            experience with HTML5, CSS3, JS and React.js. I'm currently learning
+            about UI/UX design. I design modern and incredible websites.
           </p>
         </div>
       </div>
       <div className="i-right">
-          <div className="i-bg"></div>
-          <img src={avatar} alt="" className="i-img" />
+        <img src={avatar} alt="" className="i-img" />
       </div>
     </div>
   );

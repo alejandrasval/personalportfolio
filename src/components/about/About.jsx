@@ -12,7 +12,8 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About me</h1>
-                <p className="a-description">I have a civil engineering degree but in 2021 I decided to join the tech sector and assisted to a front-end development bootcamp. I consider myself a responsible and creative person. I firmly believe that education is the most powerful weapon to change the world and that's why I am constantly learning new things. I always try to put the best part of me in every work I do. </p>
+                <p className="a-description">Creative, curious and self-taught in a constant state of learning. Civil engineer currently dedicated full time to front-end development, deepening my knowledge about web development and also learning about UX/UI design. As a front-end developer I'm capable of build dynamic web applications using agile methodologies, such as Scrum, and technologies like JavaScript, HTML, CSS, React.JS and Firebase. </p>
+                <p className="a-motto"><em>"Do or do not, there is no try" —Yoda</em></p>
             </div>
 
         </div>

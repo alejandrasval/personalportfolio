@@ -6,7 +6,7 @@
 .c-bg {
     width: 40px;
     height: 100%;
-    background-color: #9D84B7;
+    background-color: #B983FF;
     opacity: 0.2;
     position: absolute;
 }
@@ -41,6 +41,7 @@ input {
     border-bottom: 1px solid lightgray;
     margin: 10px 0px;
     font-size: 1.5rem;
+    outline: none;
 }
 
 textarea {
@@ -48,13 +49,14 @@ textarea {
     margin: 20px 0px;
     font-size: 1.5rem;
     border: 1px solid lightgray;
+    outline: none;
 }
 
 button {
     justify-content: center;
     border: none;
     padding: 15px;
-    background-color: #9D84B7;
+    background-color: #B983FF;
     border-radius: 20px;
     color: white;
     font-size: 1rem;

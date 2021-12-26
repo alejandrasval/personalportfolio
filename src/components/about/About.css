@@ -33,6 +33,7 @@
 }
 
 .a-title {
+  margin-top: 20px;
   font-size: 3rem;
   text-align: center;
   font-weight: 600;
@@ -41,6 +42,12 @@
 .a-description {
   margin: 50px;
   text-align: justify;
+  font-size: 1.5rem;
+}
+
+.a-motto {
+  margin: 50px;
+  text-align: center;
   font-size: 1.5rem;
 }
 

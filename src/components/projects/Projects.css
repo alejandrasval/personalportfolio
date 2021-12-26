@@ -1,6 +1,9 @@
 .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
-    height: 30vh;
+    height: 25vh;
     margin: 20px 10px;
     border: 2px solid #EEEEEE;
     border-radius: 30px;
@@ -25,7 +28,7 @@
 .p-img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: scale-down;
     overflow: hidden;
 }
 
